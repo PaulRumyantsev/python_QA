@@ -17,23 +17,39 @@
       <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
               <folding>
                 <element signature="e#24#82#0" expanded="true" />
-                <element signature="e#1118#1232#0" expanded="false" />
-                <element signature="e#1283#1365#0" expanded="false" />
-                <element signature="e#1429#2054#0" expanded="false" />
-                <element signature="e#2104#2142#0" expanded="false" />
-                <element signature="e#2189#2235#0" expanded="false" />
-                <element signature="e#2290#2760#0" expanded="false" />
-                <element signature="e#2804#2877#0" expanded="false" />
+                <element signature="e#1156#1270#0" expanded="false" />
+                <element signature="e#1321#1403#0" expanded="false" />
+                <element signature="e#2145#2183#0" expanded="false" />
+                <element signature="e#2230#2276#0" expanded="false" />
+                <element signature="e#2331#2801#0" expanded="false" />
+                <element signature="e#2845#2918#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,14 +57,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/group.py" />
         <option value="$PROJECT_DIR$/test_add_group.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-3" />
-    <option name="width" value="922" />
+    <option name="width" value="952" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -293,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505077703943</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor 2">
+      <created>1505078642658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505078642658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -321,11 +348,14 @@
     <history-entry file="Unittests_in_test_add_group_py - 2017.09.11 at 00h 23m 15s.xml">
       <configuration name="Unittests in test_add_group.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_add_group_py - 2017.09.11 at 01h 03m 07s.xml">
+      <configuration name="Unittests in test_add_group.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="922" height="1047" extended-state="0" />
+    <frame x="-3" y="0" width="952" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3112583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30128205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308351" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -350,7 +380,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="Refactor 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -365,13 +396,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
-            <element signature="e#1118#1232#0" expanded="false" />
-            <element signature="e#1283#1365#0" expanded="false" />
-            <element signature="e#1429#2054#0" expanded="false" />
-            <element signature="e#2104#2142#0" expanded="false" />
-            <element signature="e#2189#2235#0" expanded="false" />
-            <element signature="e#2290#2760#0" expanded="false" />
-            <element signature="e#2804#2877#0" expanded="false" />
+            <element signature="e#1156#1270#0" expanded="false" />
+            <element signature="e#1321#1403#0" expanded="false" />
+            <element signature="e#2145#2183#0" expanded="false" />
+            <element signature="e#2230#2276#0" expanded="false" />
+            <element signature="e#2331#2801#0" expanded="false" />
+            <element signature="e#2845#2918#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -382,13 +412,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
-            <element signature="e#1118#1232#0" expanded="false" />
-            <element signature="e#1283#1365#0" expanded="false" />
-            <element signature="e#1429#2054#0" expanded="false" />
-            <element signature="e#2104#2142#0" expanded="false" />
-            <element signature="e#2189#2235#0" expanded="false" />
-            <element signature="e#2290#2760#0" expanded="false" />
-            <element signature="e#2804#2877#0" expanded="false" />
+            <element signature="e#1156#1270#0" expanded="false" />
+            <element signature="e#1321#1403#0" expanded="false" />
+            <element signature="e#2145#2183#0" expanded="false" />
+            <element signature="e#2230#2276#0" expanded="false" />
+            <element signature="e#2331#2801#0" expanded="false" />
+            <element signature="e#2845#2918#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -398,19 +427,26 @@
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/firefox/webdriver.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py" />
+    <entry file="file://$PROJECT_DIR$/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_add_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
-            <element signature="e#1118#1232#0" expanded="false" />
-            <element signature="e#1283#1365#0" expanded="false" />
-            <element signature="e#1429#2054#0" expanded="false" />
-            <element signature="e#2104#2142#0" expanded="false" />
-            <element signature="e#2189#2235#0" expanded="false" />
-            <element signature="e#2290#2760#0" expanded="false" />
-            <element signature="e#2804#2877#0" expanded="false" />
+            <element signature="e#1156#1270#0" expanded="false" />
+            <element signature="e#1321#1403#0" expanded="false" />
+            <element signature="e#2145#2183#0" expanded="false" />
+            <element signature="e#2230#2276#0" expanded="false" />
+            <element signature="e#2331#2801#0" expanded="false" />
+            <element signature="e#2845#2918#0" expanded="false" />
           </folding>
         </state>
       </provider>

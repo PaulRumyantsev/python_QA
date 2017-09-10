@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver.firefox.webdriver import WebDriver
 import unittest
+from group import Group
 
 def is_alert_present(wd):
     try:
@@ -20,7 +21,7 @@ class test_add_group(unittest.TestCase):
         self.login(wd, username="admin", password="secret")
         self.open_groups_page(wd)
         self.init_group_creation(wd)
-        self.create_group(wd, name="test", header="test1", footer="test2")
+        self.create_group(wd, Group(name="test", header="test1", footer="test2"))
         self.return_to_groups_page(wd)
         self.logout(wd)
 
@@ -30,7 +31,7 @@ class test_add_group(unittest.TestCase):
         self.login(wd, username="admin", password="secret")
         self.open_groups_page(wd)
         self.init_group_creation(wd)
-        self.create_group(wd, name="", header="", footer="")
+        self.create_group(wd, Group(name="", header="", footer=""))
         self.return_to_groups_page(wd)
         self.logout(wd)
 
@@ -43,17 +44,17 @@ class test_add_group(unittest.TestCase):
         # return to groups page
         wd.find_element_by_link_text("group page").click()
 
-    def create_group(self, wd, name, header, footer):
+    def create_group(self, wd, group):
         # fill group form
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
-        wd.find_element_by_name("group_name").send_keys(name)
+        wd.find_element_by_name("group_name").send_keys(group.name)
         wd.find_element_by_name("group_header").click()
         wd.find_element_by_name("group_header").clear()
-        wd.find_element_by_name("group_header").send_keys(header)
+        wd.find_element_by_name("group_header").send_keys(group.header)
         wd.find_element_by_name("group_footer").click()
         wd.find_element_by_name("group_footer").clear()
-        wd.find_element_by_name("group_footer").send_keys(footer)
+        wd.find_element_by_name("group_footer").send_keys(group.footer)
         # submit group creation
         wd.find_element_by_name("submit").click()
 
