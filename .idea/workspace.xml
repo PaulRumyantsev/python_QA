@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39fc5c9c-cfbc-4ec1-9125-30b6553e76b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_add_address.py" afterPath="$PROJECT_DIR$/test_add_address.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,15 +17,15 @@
       <file leaf-file-name="test_add_address.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_address.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="211">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#24#82#0" expanded="true" />
-                <element signature="e#633#730#0" expanded="false" />
-                <element signature="e#779#828#0" expanded="false" />
-                <element signature="e#872#2836#0" expanded="false" />
-                <element signature="e#2871#3266#0" expanded="false" />
-                <element signature="e#3310#3358#0" expanded="false" />
+                <element signature="e#809#906#0" expanded="false" />
+                <element signature="e#955#1004#0" expanded="false" />
+                <element signature="e#1129#3102#0" expanded="false" />
+                <element signature="e#3157#3553#0" expanded="false" />
+                <element signature="e#3597#3645#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -33,8 +34,8 @@
       <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="40" column="50" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="40" selection-end-column="50" />
+            <state relative-caret-position="782">
+              <caret line="62" column="46" lean-forward="true" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
               <folding>
                 <element signature="e#24#82#0" expanded="true" />
                 <element signature="e#1321#1403#0" expanded="false" />
@@ -81,7 +82,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-3" />
-    <option name="width" value="954" />
+    <option name="width" value="1457" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -356,13 +357,17 @@
       <option name="project" value="LOCAL" />
       <updated>1505163521883</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test_add_address record">
+      <created>1505163539115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505163539115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_add_group_py - 2017.09.10 at 23h 26m 42s.xml">
-      <configuration name="Unittests in test_add_group.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_add_group_py - 2017.09.10 at 23h 29m 04s.xml">
       <configuration name="Unittests in test_add_group.py" configurationId="tests" />
     </history-entry>
@@ -390,12 +395,15 @@
     <history-entry file="py_test_in_test_add_address_py - 2017.09.11 at 23h 57m 16s.xml">
       <configuration name="py.test in test_add_address.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_add_address_py - 2017.09.12 at 00h 17m 12s.xml">
+      <configuration name="py.test in test_add_address.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="954" height="1047" extended-state="0" />
+    <frame x="-3" y="0" width="1457" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14392324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09368494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308351" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -527,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_add_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="40" column="50" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="782">
+          <caret line="62" column="46" lean-forward="true" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
             <element signature="e#1321#1403#0" expanded="false" />
@@ -543,15 +551,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_add_address.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="211">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
-            <element signature="e#633#730#0" expanded="false" />
-            <element signature="e#779#828#0" expanded="false" />
-            <element signature="e#872#2836#0" expanded="false" />
-            <element signature="e#2871#3266#0" expanded="false" />
-            <element signature="e#3310#3358#0" expanded="false" />
+            <element signature="e#809#906#0" expanded="false" />
+            <element signature="e#955#1004#0" expanded="false" />
+            <element signature="e#1129#3102#0" expanded="false" />
+            <element signature="e#3157#3553#0" expanded="false" />
+            <element signature="e#3597#3645#0" expanded="false" />
           </folding>
         </state>
       </provider>
