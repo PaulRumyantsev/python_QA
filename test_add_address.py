@@ -3,6 +3,7 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 import unittest
 from address import Address
 
+
 def is_alert_present(wd):
     try:
         wd.switch_to_alert().text
@@ -10,36 +11,33 @@ def is_alert_present(wd):
     except:
         return False
 
+
 class test_add_address(unittest.TestCase):
     def setUp(self):
         self.wd = WebDriver(capabilities={"marionette": False})
         self.wd.implicitly_wait(60)
     
     def test_add_address(self):
-        wd = self.wd
-        self.open_home_page(wd)
-        self.login(wd, username="admin", password="secret")
-        self.create_address(wd, Address(firstname="test", middlename="test", lastname="test", title="test", nickname="test", company="test", home="test", email="test", address="test"))
-        self.return_to_home_page(wd)
-        self.logout(wd)
+        self.login(username="admin", password="secret")
+        self.create_address(Address(firstname="test", middlename="test", lastname="test", title="test", nickname="test", company="test", home="test", email="test", address="test"))
+        self.logout()
 
     def test_add_empty_address(self):
+        self.login(username="admin", password="secret")
+        self.create_address(Address(firstname="", middlename="", lastname="", title="", nickname="", company="", home="", email="", address=""))
+        self.logout()
+
+    def logout(self):
         wd = self.wd
-        self.open_home_page(wd)
-        self.login(wd, username="admin", password="secret")
-        self.create_address(wd, Address(firstname="", middlename="", lastname="", title="", nickname="", company="", home="", email="", address=""))
-        self.return_to_home_page(wd)
-        self.logout(wd)
-
-
-    def logout(self, wd):
         wd.find_element_by_link_text("Logout").click()
         wd.find_element_by_id("LoginForm").click()
 
-    def return_to_home_page(self, wd):
+    def return_to_home_page(self):
+        wd = self.wd
         wd.find_element_by_link_text("home page").click()
 
-    def create_address(self, wd, address):
+    def create_address(self, address):
+        wd = self.wd
         # address creation
         wd.find_element_by_link_text("add new").click()
         wd.find_element_by_name("firstname").click()
@@ -77,8 +75,11 @@ class test_add_address(unittest.TestCase):
         wd.find_element_by_name("address2").send_keys(address.address)
         # submit address creation
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
+        self.return_to_home_page()
 
-    def login(self, wd, username, password):
+    def login(self, username, password):
+        wd = self.wd
+        self.open_home_page()
         # login
         wd.find_element_by_name("pass").click()
         wd.find_element_by_name("pass").clear()
@@ -88,7 +89,8 @@ class test_add_address(unittest.TestCase):
         wd.find_element_by_name("user").send_keys(username)
         wd.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
 
-    def open_home_page(self, wd):
+    def open_home_page(self):
+        wd = self.wd
         wd.get("http://localhost/addressbook/index.php")
 
     def tearDown(self):
