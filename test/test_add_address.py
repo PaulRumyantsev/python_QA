@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
-from selenium.webdriver.firefox.webdriver import WebDriver
 import unittest
-from address import Address
+
+import pytest
+from selenium.webdriver.firefox.webdriver import WebDriver
+
+from fixture.application import Application
+from model.address import Address
 
 
-def is_alert_present(wd):
-    try:
-        wd.switch_to_alert().text
-        return True
-    except:
-        return False
+@pytest.fixture
+def app(request):
+    fixture = Application()
+    request.addfinalizer(fixture.destroy)
+    return fixture
 
 
 class test_add_address(unittest.TestCase):
