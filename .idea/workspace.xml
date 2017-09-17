@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39fc5c9c-cfbc-4ec1-9125-30b6553e76b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python_QA.iml" afterPath="$PROJECT_DIR$/.idea/python_QA.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="contacts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="852">
-              <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+            <state relative-caret-position="952">
+              <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -131,7 +133,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -495,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505657985084</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="End lesson 2">
+      <created>1505669369130</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1505669369130</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -505,8 +514,8 @@
     <history-entry file="py_test_in_test - 2017.09.17 at 20h 29m 07s.xml">
       <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_address_py - 2017.09.17 at 16h 09m 10s.xml">
-      <configuration name="py.test in test_add_address.py" configurationId="tests" />
+    <history-entry file="py_test_in_test - 2017.09.17 at 20h 31m 14s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_add_address_py - 2017.09.17 at 16h 12m 40s.xml">
       <configuration name="py.test in test_add_address.py" configurationId="tests" />
@@ -595,7 +604,8 @@
     <MESSAGE value="contacts class creation + refactor" />
     <MESSAGE value="group deletion test creation" />
     <MESSAGE value="contact deletion test creation + conftest" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact deletion test creation + conftest" />
+    <MESSAGE value="End lesson 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="End lesson 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -828,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+        <state relative-caret-position="952">
+          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
           <folding />
         </state>
       </provider>
