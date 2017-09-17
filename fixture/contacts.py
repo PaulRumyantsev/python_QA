@@ -1,45 +1,15 @@
-# -*- coding: utf-8 -*-
-from selenium.webdriver.firefox.webdriver import WebDriver
-import unittest
-from address import Address
-
-def is_alert_present(wd):
-    try:
-        wd.switch_to_alert().text
-        return True
-    except:
-        return False
-
-class test_add_address(unittest.TestCase):
-    def setUp(self):
-        self.wd = WebDriver(capabilities={"marionette": False})
-        self.wd.implicitly_wait(60)
-    
-    def test_add_address(self):
-        wd = self.wd
-        self.open_home_page(wd)
-        self.login(wd, username="admin", password="secret")
-        self.create_address(wd, Address(firstname="test", middlename="test", lastname="test", title="test", nickname="test", company="test", home="test", email="test", address="test"))
-        self.return_to_home_page(wd)
-        self.logout(wd)
-
-    def test_add_empty_address(self):
-        wd = self.wd
-        self.open_home_page(wd)
-        self.login(wd, username="admin", password="secret")
-        self.create_address(wd, Address(firstname="", middlename="", lastname="", title="", nickname="", company="", home="", email="", address=""))
-        self.return_to_home_page(wd)
-        self.logout(wd)
 
 
-    def logout(self, wd):
-        wd.find_element_by_link_text("Logout").click()
-        wd.find_element_by_id("LoginForm").click()
+class ContactHelper:
+    def __init__(self, app):
+        self.app = app
 
-    def return_to_home_page(self, wd):
+    def return_to_home_page(self):
+        wd = self.app.wd
         wd.find_element_by_link_text("home page").click()
 
-    def create_address(self, wd, address):
+    def create(self, address):
+        wd = self.app.wd
         # address creation
         wd.find_element_by_link_text("add new").click()
         wd.find_element_by_name("firstname").click()
@@ -77,22 +47,11 @@ class test_add_address(unittest.TestCase):
         wd.find_element_by_name("address2").send_keys(address.address)
         # submit address creation
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
+        self.return_to_home_page()
 
-    def login(self, wd, username, password):
-        # login
-        wd.find_element_by_name("pass").click()
-        wd.find_element_by_name("pass").clear()
-        wd.find_element_by_name("pass").send_keys(password)
-        wd.find_element_by_name("user").click()
-        wd.find_element_by_name("user").clear()
-        wd.find_element_by_name("user").send_keys(username)
-        wd.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
-
-    def open_home_page(self, wd):
-        wd.get("http://localhost/addressbook/index.php")
-
-    def tearDown(self):
-        self.wd.quit()
-
-if __name__ == '__main__':
-    unittest.main()
+    def delete_first_contact(self):
+        wd = self.app.wd
+        # select first contact
+        wd.find_element_by_xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        # delete contact
+        wd.find_element_by_name("update").click()
