@@ -1,7 +1,7 @@
 
 
 class Address:
-    def __init__(self, firstname, middlename, lastname, title, nickname, company, home, email, address):
+    def __init__(self, firstname=None, middlename=None, lastname=None, title=None, nickname=None, company=None, home=None, email=None, address=None):
         self.firstname = firstname
         self.middlename = middlename
         self.lastname = lastname

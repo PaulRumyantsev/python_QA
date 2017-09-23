@@ -1,3 +1,4 @@
+from model.address import Address
 
 
 def test_delete_first_contact(app):
