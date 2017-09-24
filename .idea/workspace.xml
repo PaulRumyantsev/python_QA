@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39fc5c9c-cfbc-4ec1-9125-30b6553e76b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/contacts.py" afterPath="$PROJECT_DIR$/fixture/contacts.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -561,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506251115428</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="End of lesson 3">
+      <created>1506255241819</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1506255241819</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -646,7 +652,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor" />
     <MESSAGE value="Refactor 2" />
     <MESSAGE value="identified supporting methods and classes" />
     <MESSAGE value="test_add_address record" />
@@ -671,7 +676,8 @@
     <MESSAGE value="some optimization" />
     <MESSAGE value="some optimization next" />
     <MESSAGE value="preoptimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="preoptimization" />
+    <MESSAGE value="End of lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of lesson 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
