@@ -67,17 +67,25 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_elements_by_name("selected[]")[index].click()
 
-    def modif_first_contact(self, new_contact_data):
+    def modif_contact_by_index(self, index, new_contact_data):
         wd = self.app.wd
         self.app.open_home_page()
+        self.select_contact_by_index(index)
         # select first contact
-        wd.find_element_by_xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        self.select_modif_contact(index)
         # fill contact form
         self.fill_contact_form(new_contact_data)
         # update contact
         wd.find_element_by_name("update").click()
         self.return_to_home_page()
         self.contacts_cache = None
+
+    def select_modif_contact(self, index):
+        wd = self.app.wd
+        wd.find_elements_by_xpath("//img[@title='Edit']")[index].click()
+
+    def modif_first_contact(self):
+        self.modif_contact_by_index(0)
 
     def count(self):
         wd = self.app.wd
