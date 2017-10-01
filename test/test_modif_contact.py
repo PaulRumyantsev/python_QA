@@ -12,4 +12,3 @@ def test_modif_first_contact(app):
     assert len(old_contacts) == len(new_contacts)
     old_contacts[0] = contacts
     assert sorted(old_contacts, key=Contacts.id_or_max) == sorted(new_contacts, key=Contacts.id_or_max)
-
