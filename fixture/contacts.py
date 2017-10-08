@@ -37,7 +37,8 @@ class ContactHelper:
         self.change_field_value("mobile", address.mobilephone)
         self.change_field_value("work", address.workphone)
         self.change_field_value("fax", address.fax)
-
+        self.change_field_value("phone2", address.secondaryphone)
+        
     def change_field_value(self, field_firstname, text):
         wd = self.app.wd
         if text is not None:
@@ -108,7 +109,7 @@ class ContactHelper:
                 all_phones = cells[5].text.splitlines()
                 self.contacts_cache.append(Contacts(firstname=firstname, lastname=lastname, id=id,
                                                     homephone=all_phones[0], mobilephone=all_phones[1],
-                                                    workphone=all_phones[2]))
+                                                    workphone=all_phones[2], secondaryphone=all_phones[3]))
         return list(self.contacts_cache)
 
     def open_contact_to_edit_by_index(self, index):
@@ -135,9 +136,10 @@ class ContactHelper:
         workphone = wd.find_element_by_name("work").get_attribute("value")
         mobilephone = wd.find_element_by_name("mobile").get_attribute("value")
         fax = wd.find_element_by_name("fax").get_attribute("value")
+        secondaryphone = wd.find_element_by_name("phone2").get_attribute("value")
         return Contacts(firstname=firstname, lastname=lastname, id=id,
                         homephone=homephone, workphone=workphone, mobilephone=mobilephone,
-                        fax=fax)
+                        fax=fax, secondaryphone=secondaryphone)
 
     def get_contacts_from_view_page(self, index):
         wd = self.app.wd
@@ -147,4 +149,6 @@ class ContactHelper:
         workphone = re.search("W: (.*)", text).group(1)
         mobilephone = re.search("M: (.*)", text).group(1)
         fax = re.search("F: (.*)", text).group(1)
-        return Contacts(homephone=homephone, workphone=workphone, mobilephone=mobilephone, fax=fax)
+        secondaryphone = re.search("P: (.*)", text).group(1)
+        return Contacts(homephone=homephone, workphone=workphone, mobilephone=mobilephone, fax=fax,
+                        secondaryphone=secondaryphone)
