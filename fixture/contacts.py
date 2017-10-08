@@ -108,7 +108,7 @@ class ContactHelper:
                 all_phones = cells[5].text.splitlines()
                 self.contacts_cache.append(Contacts(firstname=firstname, lastname=lastname, id=id,
                                                     homephone=all_phones[0], mobilephone=all_phones[1],
-                                                    workphone=all_phones[2], fax=all_phones[3]))
+                                                    workphone=all_phones[2]))
         return list(self.contacts_cache)
 
     def open_contact_to_edit_by_index(self, index):
