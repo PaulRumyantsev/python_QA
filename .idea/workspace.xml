@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39fc5c9c-cfbc-4ec1-9125-30b6553e76b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/contacts.py" afterPath="$PROJECT_DIR$/fixture/contacts.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -715,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507467508200</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="test_phones added">
+      <created>1507479397037</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1507479397037</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -799,7 +805,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="group class creation" />
     <MESSAGE value="contacts class creation + refactor" />
     <MESSAGE value="group deletion test creation" />
     <MESSAGE value="contact deletion test creation + conftest" />
@@ -824,7 +829,8 @@
     <MESSAGE value="session refactor" />
     <MESSAGE value="phones lines added to contacts" />
     <MESSAGE value="some refactor on contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="some refactor on contacts" />
+    <MESSAGE value="test_phones added" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_phones added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
