@@ -19,8 +19,8 @@
       <file leaf-file-name="contacts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="36" column="52" lean-forward="false" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+            <state relative-caret-position="1672">
+              <caret line="121" column="50" lean-forward="true" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -29,8 +29,8 @@
       <file leaf-file-name="contacts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="4" column="113" lean-forward="false" selection-start-line="4" selection-start-column="113" selection-end-line="4" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -39,8 +39,8 @@
       <file leaf-file-name="test_add_contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="136">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
-    <option name="width" value="1219" />
+    <option name="width" value="972" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -244,6 +244,23 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration name="contacts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_QA" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/contacts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="py.test in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,21 +306,6 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_del_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_QA" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_del_contact.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <configuration name="py.test in test_modif_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,17 +342,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python.test_add_group" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_del_contact.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_modif_contact.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_add_group.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modif_contact.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_add_group.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python.contacts" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_add_group.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modif_contact.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_del_contact.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python.contacts" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_group.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_modif_contact.py" />
       </list>
     </recent_temporary>
   </component>
@@ -662,16 +664,17 @@
       <option name="project" value="LOCAL" />
       <updated>1507406640607</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="phones lines added to contacts">
+      <created>1507463399590</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1507463399590</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 14h 37m 39s.xml">
-      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 14h 40m 29s.xml">
-      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 14h 44m 11s.xml">
       <configuration name="py.test in test_add_contact.py" configurationId="tests" />
     </history-entry>
@@ -687,33 +690,38 @@
     <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 14h 48m 54s.xml">
       <configuration name="py.test in test_add_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modif_contact_py - 2017.10.01 at 22h 58m 41s.xml">
-      <configuration name="py.test in test_modif_contact.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 14h 55m 07s.xml">
+      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modif_contact_py - 2017.10.01 at 22h 59m 14s.xml">
-      <configuration name="py.test in test_modif_contact.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 15h 00m 10s.xml">
+      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modif_contact_py - 2017.10.01 at 23h 04m 12s.xml">
-      <configuration name="py.test in test_modif_contact.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 15h 00m 49s.xml">
+      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 15h 14m 06s.xml">
+      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_add_contact_py - 2017.10.08 at 15h 15m 07s.xml">
+      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1219" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-11" y="0" width="972" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.280133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2792887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2901499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2901499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -724,15 +732,15 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2901499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2901499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.280133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -747,7 +755,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="packages creation" />
     <MESSAGE value="SessionHelper creation" />
     <MESSAGE value="group class creation" />
     <MESSAGE value="contacts class creation + refactor" />
@@ -772,7 +779,8 @@
     <MESSAGE value="randomize del and add contacts" />
     <MESSAGE value="randomize modif contacts" />
     <MESSAGE value="session refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="session refactor" />
+    <MESSAGE value="phones lines added to contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="phones lines added to contacts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1046,24 +1054,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/contacts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="4" column="113" lean-forward="false" selection-start-line="4" selection-start-column="113" selection-end-line="4" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="36" column="52" lean-forward="false" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        <state relative-caret-position="1672">
+          <caret line="121" column="50" lean-forward="true" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
           <folding />
         </state>
       </provider>
