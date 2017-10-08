@@ -38,7 +38,7 @@ class ContactHelper:
         self.change_field_value("work", address.workphone)
         self.change_field_value("fax", address.fax)
         self.change_field_value("phone2", address.secondaryphone)
-        
+
     def change_field_value(self, field_firstname, text):
         wd = self.app.wd
         if text is not None:
@@ -106,10 +106,9 @@ class ContactHelper:
                 firstname = cells[2].text
                 lastname = cells[1].text
                 id = cells[0].find_element_by_tag_name("input").get_attribute("value")
-                all_phones = cells[5].text.splitlines()
+                all_phones = cells[5].text
                 self.contacts_cache.append(Contacts(firstname=firstname, lastname=lastname, id=id,
-                                                    homephone=all_phones[0], mobilephone=all_phones[1],
-                                                    workphone=all_phones[2], secondaryphone=all_phones[3]))
+                                                    all_phones_from_home_page=all_phones))
         return list(self.contacts_cache)
 
     def open_contact_to_edit_by_index(self, index):
