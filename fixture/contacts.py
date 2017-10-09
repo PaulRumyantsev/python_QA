@@ -33,10 +33,12 @@ class ContactHelper:
         self.change_field_value("title", address.title)
         self.change_field_value("nickname", address.nickname)
         self.change_field_value("company", address.company)
+        self.change_field_value("address", address.address)
         self.change_field_value("home", address.homephone)
         self.change_field_value("mobile", address.mobilephone)
         self.change_field_value("work", address.workphone)
         self.change_field_value("fax", address.fax)
+        self.change_field_value("email", address.email)
         self.change_field_value("phone2", address.secondaryphone)
 
     def change_field_value(self, field_firstname, text):
@@ -105,10 +107,13 @@ class ContactHelper:
                 cells = row.find_elements_by_tag_name("td")
                 firstname = cells[2].text
                 lastname = cells[1].text
+                address = cells[3].text
                 id = cells[0].find_element_by_tag_name("input").get_attribute("value")
                 all_phones = cells[5].text
-                self.contacts_cache.append(Contacts(firstname=firstname, lastname=lastname, id=id,
-                                                    all_phones_from_home_page=all_phones))
+                all_emails = cells[4].text
+                self.contacts_cache.append(Contacts(firstname=firstname, lastname=lastname, id=id, address=address,
+                                                    all_phones_from_home_page=all_phones,
+                                                    all_emails_from_home_page=all_emails))
         return list(self.contacts_cache)
 
     def open_contact_to_edit_by_index(self, index):
@@ -136,9 +141,12 @@ class ContactHelper:
         mobilephone = wd.find_element_by_name("mobile").get_attribute("value")
         fax = wd.find_element_by_name("fax").get_attribute("value")
         secondaryphone = wd.find_element_by_name("phone2").get_attribute("value")
+        email = wd.find_element_by_name("email").get_attribute("value")
+        email2 = wd.find_element_by_name("email2").get_attribute("value")
+        email3 = wd.find_element_by_name("email3").get_attribute("value")
         return Contacts(firstname=firstname, lastname=lastname, id=id,
                         homephone=homephone, workphone=workphone, mobilephone=mobilephone,
-                        fax=fax, secondaryphone=secondaryphone)
+                        fax=fax, secondaryphone=secondaryphone, email=email, email2=email2, email3=email3)
 
     def get_contacts_from_view_page(self, index):
         wd = self.app.wd
