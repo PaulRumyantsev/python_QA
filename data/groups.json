@@ -1,38 +1,44 @@
 [
   {
-    "name": "",
-    "header": "",
+    "py/object": "model.group.Group",
     "footer": "",
-    "id": null
+    "header": "",
+    "id": null,
+    "name": ""
   },
   {
-    "name": "name ",
-    "header": "header",
-    "footer": "footer/R",
-    "id": null
-  },
-  {
-    "name": "name0",
-    "header": "header Ed",
-    "footer": "footerV@F@",
-    "id": null
-  },
-  {
-    "name": "namep",
-    "header": "headerr /",
-    "footer": "footer5&h",
-    "id": null
-  },
-  {
-    "name": "nameob",
-    "header": "header T",
+    "py/object": "model.group.Group",
     "footer": "footer",
-    "id": null
+    "header": "header~",
+    "id": null,
+    "name": "name 2o_"
   },
   {
-    "name": "name85",
-    "header": "headerx",
-    "footer": "footer[gE=",
-    "id": null
+    "py/object": "model.group.Group",
+    "footer": "footerV5&",
+    "header": "header^c[",
+    "id": null,
+    "name": "name~)"
+  },
+  {
+    "py/object": "model.group.Group",
+    "footer": "footer",
+    "header": "header ",
+    "id": null,
+    "name": "name(,"
+  },
+  {
+    "py/object": "model.group.Group",
+    "footer": "footer;}S",
+    "header": "header]CVv",
+    "id": null,
+    "name": "namebT2"
+  },
+  {
+    "py/object": "model.group.Group",
+    "footer": "footer",
+    "header": "headerQs\\z",
+    "id": null,
+    "name": "namefo7"
   }
 ]

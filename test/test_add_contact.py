@@ -2,8 +2,8 @@
 from model.contacts import Contacts
 
 
-def test_add_contact(app, data_contacts):
-    contacts = data_contacts
+def test_add_contact(app, json_contacts):
+    contacts = json_contacts
     old_contacts = app.contacts.get_contacts_list()
     app.contacts.create(contacts)
     assert len(old_contacts) + 1 == app.contacts.count()
