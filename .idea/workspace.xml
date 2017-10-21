@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39fc5c9c-cfbc-4ec1-9125-30b6553e76b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/contacts.json" afterPath="$PROJECT_DIR$/data/contacts.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/groups.json" afterPath="$PROJECT_DIR$/data/groups.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target.json" afterPath="$PROJECT_DIR$/target.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check_db_connection.py" afterPath="$PROJECT_DIR$/check_db_connection.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +17,8 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="697">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -32,8 +29,8 @@
       <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="29" column="95" lean-forward="false" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
+            <state relative-caret-position="425">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -41,23 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_db_matches_ui.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_db_matches_ui.py">
+      <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,15 +100,15 @@
         <option value="$PROJECT_DIR$/target.json" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/check_db_connection.py" />
-        <option value="$PROJECT_DIR$/fixture/db.py" />
         <option value="$PROJECT_DIR$/test/test_db_matches_ui.py" />
+        <option value="$PROJECT_DIR$/fixture/db.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-6" />
     <option name="y" value="1" />
-    <option name="width" value="1308" />
+    <option name="width" value="1064" />
     <option name="height" value="1051" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -155,6 +140,11 @@
             <path>
               <item name="python_QA" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_QA" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_QA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_QA" type="462c0819:PsiDirectoryNode" />
               <item name="fixture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,7 +171,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_add_group.py" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_db_matches_ui.py">
+  <component name="RunManager" selected="Python.test_add_group">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,7 +360,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\W10\env\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -390,10 +380,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_db_matches_ui.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_db_matches_ui.test_contacts_list" />
-        <item index="3" class="java.lang.String" itemvalue="Python.check_db_connection" />
+        <item index="0" class="java.lang.String" itemvalue="Python.check_db_connection" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_db_matches_ui.test_contacts_list" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_db_matches_ui.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
         <item index="4" class="java.lang.String" itemvalue="Python.group" />
       </list>
     </recent_temporary>
@@ -411,13 +401,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505001594337</updated>
-    </task>
-    <task id="LOCAL-00014" summary="SessionHelper creation">
-      <created>1505647373044</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1505647373044</updated>
     </task>
     <task id="LOCAL-00015" summary="group class creation">
       <created>1505649085477</created>
@@ -755,46 +738,52 @@
       <option name="project" value="LOCAL" />
       <updated>1508022062647</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="lesson 7 db fixture and test created">
+      <created>1508622869519</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1508622869519</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 00h 35m 47s.xml">
+    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 01h 13m 09s.xml">
       <configuration name="py.test for test_db_matches_ui.test_contacts_list" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 00h 39m 39s.xml">
+    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 01h 19m 43s.xml">
       <configuration name="py.test for test_db_matches_ui.test_contacts_list" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 00h 42m 46s.xml">
+    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 01h 20m 10s.xml">
       <configuration name="py.test for test_db_matches_ui.test_contacts_list" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 00h 47m 30s.xml">
+    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 01h 21m 22s.xml">
+      <configuration name="py.test for test_db_matches_ui.test_contacts_list" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 01h 22m 27s.xml">
+      <configuration name="py.test for test_db_matches_ui.test_contacts_list" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_db_matches_ui_test_contacts_list - 2017.10.22 at 01h 22m 54s.xml">
       <configuration name="py.test for test_db_matches_ui.test_contacts_list" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_add_contact_py - 2017.10.22 at 00h 52m 21s.xml">
       <configuration name="py.test in test_add_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_db_matches_ui_py - 2017.10.22 at 00h 28m 33s.xml">
-      <configuration name="py.test in test_db_matches_ui.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_db_matches_ui_py - 2017.10.22 at 00h 33m 21s.xml">
-      <configuration name="py.test in test_db_matches_ui.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_db_matches_ui_py - 2017.10.22 at 00h 53m 02s.xml">
       <configuration name="py.test in test_db_matches_ui.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_del_group_py - 2017.10.15 at 01h 57m 40s.xml">
-      <configuration name="py.test in test_del_group.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_matches_ui_py - 2017.10.22 at 00h 58m 37s.xml">
+      <configuration name="py.test in test_db_matches_ui.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modif_contact_py - 2017.10.15 at 00h 05m 24s.xml">
-      <configuration name="py.test in test_modif_contact.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_db_matches_ui_py - 2017.10.22 at 01h 11m 39s.xml">
+      <configuration name="py.test in test_db_matches_ui.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="1" width="1308" height="1051" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="1" width="1064" height="1051" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17105263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21087787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -819,7 +808,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cache and hesh groups refactor" />
     <MESSAGE value="randomization groups refactor" />
     <MESSAGE value="contacts lists" />
     <MESSAGE value="contacts lists refactor" />
@@ -844,7 +832,8 @@
     <MESSAGE value="generator for contacts and groups created is parametrized" />
     <MESSAGE value="dynamic tests generation for contacts and groups" />
     <MESSAGE value="dynamic tests generation for contacts and groups with jsonpickle" />
-    <option name="LAST_COMMIT_MESSAGE" value="dynamic tests generation for contacts and groups with jsonpickle" />
+    <MESSAGE value="lesson 7 db fixture and test created" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 7 db fixture and test created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,7 +862,6 @@
     <entry file="file://$USER_HOME$/env/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file://$USER_HOME$/env/Lib/site-packages/_pytest/python.py" />
     <entry file="file://$USER_HOME$/env/Lib/site-packages/py/_path/local.py" />
-    <entry file="file://$PROJECT_DIR$/test/.cache/v/cache/lastfailed" />
     <entry file="file://$USER_HOME$/env/Lib/random.py" />
     <entry file="file://$PROJECT_DIR$/test/test_modify_group.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -960,13 +948,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/test.json" />
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1016,14 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_db_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59">
@@ -1056,10 +1029,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/.cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_db_matches_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="697">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -1076,21 +1075,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="29" column="95" lean-forward="false" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
+        <state relative-caret-position="425">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_db_matches_ui.py">
+    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
