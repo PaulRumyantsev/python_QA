@@ -1,12 +1,12 @@
 import mysql.connector
-from fixture.db import DbFixture
+from fixture.orm import ORMFixture
 
-db = DbFixture(host="127.0.0.1", name="addressbook", user="root", password="")
+db = ORMFixture(host="127.0.0.1", name="addressbook", user="root", password="")
 
 try:
-    contacts = db.get_contacts_list()
-    for contacts in contacts:
-        print(contacts)
-    print(len(contacts))
+    l = db.get_contacts_list()
+    for item in l:
+        print(item)
+    print(len(l))
 finally:
-    db.destroy()
+    pass #db.destroy()
