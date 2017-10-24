@@ -17,8 +17,11 @@ class DbFixture:
         cursor = self.connection.cursor()
         try:
             cursor.execute("select group_id, group_name, group_header, group_footer from group_list")
-            for row in cursor:
-                (id, name, header, footer) = row
+            for row in cursor.fetchall():
+                id = row[0]
+                name = row[1]
+                header = row[2]
+                footer = row[3]
                 list.append(Group(id=str(id), name=name, header=header, footer=footer))
         finally:
             cursor.close()
@@ -30,7 +33,7 @@ class DbFixture:
         try:
             cursor.execute("select id, firstname, lastname, home, work, mobile, phone2, address, email, email2, email3 "
                            "from addressbook where deprecated='0000-00-00 00:00:00'")
-            for row in cursor:
+            for row in cursor.fetchall():
                 (id, firstname, lastname, homephone, workphone, mobilephone,
                  secondaryphone, address, email, email2, email3) = row
                 list.append(Contacts(id=str(id), firstname=firstname, lastname=lastname, homephone=homephone,

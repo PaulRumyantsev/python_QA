@@ -17,7 +17,7 @@ class ContactHelper:
 
     def create(self, address):
         wd = self.app.wd
-        #self.app.open_home_page()
+        # self.app.open_home_page()
         self.open_contact_creation_page()
         self.fill_contact_form(address)
         # submit address creation
@@ -64,6 +64,15 @@ class ContactHelper:
         wd.switch_to_alert().accept()
         self.contacts_cache = None
 
+    def delete_contacts_by_id(self, id):
+        wd = self.app.wd
+        self.app.open_home_page()
+        self.select_contact_by_id(id)
+        # delete contact
+        wd.find_element_by_css_selector("input[value='Delete']").click()
+        wd.switch_to_alert().accept()
+        self.contacts_cache = None
+
     def select_first_contact(self):
         wd = self.app.wd
         wd.find_element_by_name("selected[]").click()
@@ -71,6 +80,10 @@ class ContactHelper:
     def select_contact_by_index(self, index):
         wd = self.app.wd
         wd.find_elements_by_name("selected[]")[index].click()
+
+    def select_contact_by_id(self, id):
+        wd = self.app.wd
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
 
     def modif_contact_by_index(self, index, new_contact_data):
         wd = self.app.wd
@@ -84,9 +97,25 @@ class ContactHelper:
         self.return_to_home_page()
         self.contacts_cache = None
 
+    def modif_contact_by_id(self, id, new_contact_data):
+        wd = self.app.wd
+        self.app.open_home_page()
+        self.select_contact_by_id(id)
+        self.select_modif_contact_by_id(id)
+        # fill contact form
+        self.fill_contact_form(new_contact_data)
+        # update contact
+        wd.find_element_by_name("update").click()
+        self.return_to_home_page()
+        self.contacts_cache = None
+
     def select_modif_contact_by_index(self, index):
         wd = self.app.wd
         wd.find_elements_by_xpath("//img[@title='Edit']")[index].click()
+
+    def select_modif_contact_by_id(self, id):
+        wd = self.app.wd
+        wd.find_element_by_css_selector("a[href='edit.php?id=%s']" % id).click()
 
     def modif_first_contact(self):
         self.modif_contact_by_index(0)
