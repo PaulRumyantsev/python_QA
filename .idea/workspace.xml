@@ -393,13 +393,6 @@
       <option name="presentableId" value="Default" />
       <updated>1505001594337</updated>
     </task>
-    <task id="LOCAL-00020" summary="contact deletion test creation + conftest">
-      <created>1505657985084</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1505657985084</updated>
-    </task>
     <task id="LOCAL-00021" summary="End lesson 2">
       <created>1505669369130</created>
       <option name="number" value="00021" />
@@ -736,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508882665713</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="add, del contact from/to group">
+      <created>1508887965692</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1508887965692</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -800,7 +800,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="randomize del and add contacts" />
     <MESSAGE value="randomize modif contacts" />
     <MESSAGE value="session refactor" />
     <MESSAGE value="phones lines added to contacts" />
@@ -825,7 +824,8 @@
     <MESSAGE value="orm implemented" />
     <MESSAGE value="pymysql.converters and relations was implemented" />
     <MESSAGE value="Del,modif contacts and groups + check ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Del,modif contacts and groups + check ui" />
+    <MESSAGE value="add, del contact from/to group" />
+    <option name="LAST_COMMIT_MESSAGE" value="add, del contact from/to group" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
