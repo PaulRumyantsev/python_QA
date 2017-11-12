@@ -1,12 +1,12 @@
 {
-  "uid" : "35a635dfb67f328",
-  "name" : "test_add_group[None:name j;headerb-;footer>yI]",
-  "fullName" : "test.test_add_group.test_add_group[None:name j;headerb-;footer>yI]",
-  "historyId" : "c0760aa65c75b6bd444dd6a12f8b856a",
+  "uid" : "e5209a9a4238508a",
+  "name" : "test_delete_some_group",
+  "fullName" : "test.test_del_group.test_delete_some_group",
+  "historyId" : "b066fff46e5d8d79e105d64621f8e2d9",
   "time" : {
-    "start" : 1510495063813,
-    "stop" : 1510495064887,
-    "duration" : 1074
+    "start" : 1510519473697,
+    "stop" : 1510519480656,
+    "duration" : 6959
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,57 +18,57 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given a group list",
+      "name" : "Given a random group from the list",
       "time" : {
-        "start" : 1510495063892,
-        "stop" : 1510495063893,
+        "start" : 1510519480056,
+        "stop" : 1510519480057,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "When I add a group None:name j;headerb-;footer>yI to the list",
+      "name" : "When I delete the group 269:namePo;header<N=;footer from the list",
       "time" : {
-        "start" : 1510495063893,
-        "stop" : 1510495064886,
-        "duration" : 993
+        "start" : 1510519480057,
+        "stop" : 1510519480655,
+        "duration" : 598
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "Then the new group lst is equal to the old list with the added group",
+      "name" : "Then the new list is equal to the old list without the deleted group",
       "time" : {
-        "start" : 1510495064886,
-        "stop" : 1510495064887,
+        "start" : 1510519480655,
+        "stop" : 1510519480656,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 3,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -85,19 +85,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "3396-MainThread"
+    "value" : "18848-MainThread"
   }, {
     "name" : "suite",
-    "value" : "test.test_add_group"
+    "value" : "test.test_del_group"
   }, {
     "name" : "testClass",
-    "value" : "test.test_add_group"
+    "value" : "test.test_del_group"
   }, {
     "name" : "testMethod",
-    "value" : "test_add_group[None:name j;headerb-;footer>yI]"
+    "value" : "test_delete_some_group"
   }, {
     "name" : "package",
-    "value" : "test.test_add_group"
+    "value" : "test.test_del_group"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -111,10 +111,10 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "35a635dfb67f328.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
+  "source" : "e5209a9a4238508a.json",
   "statusMessage" : {
     "present" : false
   },

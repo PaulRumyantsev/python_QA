@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from model.contacts import Contacts
+import pytest
 
 
 def test_add_contact(app, db, json_contacts):
