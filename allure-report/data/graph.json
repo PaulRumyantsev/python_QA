@@ -1,11 +1,61 @@
 [ {
-  "uid" : "e5209a9a4238508a",
-  "name" : "test_delete_some_group",
+  "uid" : "a80c97e43d534adb",
+  "name" : "test_add_contact[None:firstnamew:lastnameF :;address5V|;None]",
   "time" : {
-    "start" : 1510519473697,
-    "stop" : 1510519480656,
-    "duration" : 6959
+    "start" : 1510519895615,
+    "stop" : 1510519896928,
+    "duration" : 1313
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc919d55697a305f",
+  "name" : "test_add_contact[None::;;None]",
+  "time" : {
+    "start" : 1510519886668,
+    "stop" : 1510519894215,
+    "duration" : 7547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f5605b5f3fc61ad",
+  "name" : "test_add_contact[None:firstnameu:lastname ,0;addressZ;None]",
+  "time" : {
+    "start" : 1510519898408,
+    "stop" : 1510519899874,
+    "duration" : 1466
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bd17ba9f76b3fe",
+  "name" : "test_add_contact[None:firstname:lastnamenCj ;addressxX4;None]",
+  "time" : {
+    "start" : 1510519896928,
+    "stop" : 1510519898408,
+    "duration" : 1480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1331c48e008f0274",
+  "name" : "test_add_contact[None:firstnameExaf:lastname@<hE;addressC\\3.;None]",
+  "time" : {
+    "start" : 1510519899874,
+    "stop" : 1510519901242,
+    "duration" : 1368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41921f4ac255c34f",
+  "name" : "test_add_contact[None:firstnameWI'):lastname-;address;None]",
+  "time" : {
+    "start" : 1510519894216,
+    "stop" : 1510519895614,
+    "duration" : 1398
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

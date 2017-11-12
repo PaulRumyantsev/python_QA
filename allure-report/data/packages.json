@@ -2,20 +2,80 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "test.test_del_group",
+    "name" : "test.test_add_contact",
     "children" : [ {
-      "name" : "test_delete_some_group",
-      "uid" : "e5209a9a4238508a",
-      "parentUid" : "b18e9fe6511b66d8665057adfa5d48b1",
+      "name" : "test_add_contact[None::;;None]",
+      "uid" : "dc919d55697a305f",
+      "parentUid" : "d08168f24e45db2068243b0e4b6dc904",
       "status" : "passed",
       "time" : {
-        "start" : 1510519473697,
-        "stop" : 1510519480656,
-        "duration" : 6959
+        "start" : 1510519886668,
+        "stop" : 1510519894215,
+        "duration" : 7547
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_contact[None:firstnameWI'):lastname-;address;None]",
+      "uid" : "41921f4ac255c34f",
+      "parentUid" : "d08168f24e45db2068243b0e4b6dc904",
+      "status" : "failed",
+      "time" : {
+        "start" : 1510519894216,
+        "stop" : 1510519895614,
+        "duration" : 1398
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_contact[None:firstnamew:lastnameF :;address5V|;None]",
+      "uid" : "a80c97e43d534adb",
+      "parentUid" : "d08168f24e45db2068243b0e4b6dc904",
+      "status" : "passed",
+      "time" : {
+        "start" : 1510519895615,
+        "stop" : 1510519896928,
+        "duration" : 1313
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_contact[None:firstname:lastnamenCj ;addressxX4;None]",
+      "uid" : "5bd17ba9f76b3fe",
+      "parentUid" : "d08168f24e45db2068243b0e4b6dc904",
+      "status" : "passed",
+      "time" : {
+        "start" : 1510519896928,
+        "stop" : 1510519898408,
+        "duration" : 1480
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_contact[None:firstnameu:lastname ,0;addressZ;None]",
+      "uid" : "8f5605b5f3fc61ad",
+      "parentUid" : "d08168f24e45db2068243b0e4b6dc904",
+      "status" : "passed",
+      "time" : {
+        "start" : 1510519898408,
+        "stop" : 1510519899874,
+        "duration" : 1466
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_contact[None:firstnameExaf:lastname@<hE;addressC\\3.;None]",
+      "uid" : "1331c48e008f0274",
+      "parentUid" : "d08168f24e45db2068243b0e4b6dc904",
+      "status" : "passed",
+      "time" : {
+        "start" : 1510519899874,
+        "stop" : 1510519901242,
+        "duration" : 1368
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "test.test_del_group"
+    "uid" : "test.test_add_contact"
   } ]
 }

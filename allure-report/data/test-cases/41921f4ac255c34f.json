@@ -1,0 +1,146 @@
+{
+  "uid" : "41921f4ac255c34f",
+  "name" : "test_add_contact[None:firstnameWI'):lastname-;address;None]",
+  "fullName" : "test.test_add_contact.test_add_contact[None:firstnameWI'):lastname-;address;None]",
+  "historyId" : "c34d4d7f7947ede299c78a5a79623bc4",
+  "time" : {
+    "start" : 1510519894216,
+    "stop" : 1510519895614,
+    "duration" : 1398
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "AssertionError: assert (11 + 1) == 11\n +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\n +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\n +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\n +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts",
+    "trace" : "app = <fixture.application.Application object at 0x0430E270>\ndb = <fixture.db.DbFixture object at 0x04315190>\njson_contacts = None:firstnameWI'):lastname-;address;None\n\n    def test_add_contact(app, db, json_contacts):\n        contacts = json_contacts\n        with pytest.allure.step('Given a contact list'):\n            old_contacts = db.get_contacts_list()\n        with pytest.allure.step('When I add the contact to the list'):\n            app.contacts.create(contacts)\n        with pytest.allure.step('Then the new contact list is equal to the old list with the added contact'):\n>           assert len(old_contacts) + 1 == app.contacts.count()\nE           assert (11 + 1) == 11\nE            +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\nE            +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\nE            +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\nE            +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts\n\ntest\\test_add_contact.py:13: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "AssertionError: assert (11 + 1) == 11\n +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\n +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\n +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\n +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts",
+      "trace" : "app = <fixture.application.Application object at 0x0430E270>\ndb = <fixture.db.DbFixture object at 0x04315190>\njson_contacts = None:firstnameWI'):lastname-;address;None\n\n    def test_add_contact(app, db, json_contacts):\n        contacts = json_contacts\n        with pytest.allure.step('Given a contact list'):\n            old_contacts = db.get_contacts_list()\n        with pytest.allure.step('When I add the contact to the list'):\n            app.contacts.create(contacts)\n        with pytest.allure.step('Then the new contact list is equal to the old list with the added contact'):\n>           assert len(old_contacts) + 1 == app.contacts.count()\nE           assert (11 + 1) == 11\nE            +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\nE            +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\nE            +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\nE            +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts\n\ntest\\test_add_contact.py:13: AssertionError",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Given a contact list",
+      "time" : {
+        "start" : 1510519894394,
+        "stop" : 1510519894395,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I add the contact to the list",
+      "time" : {
+        "start" : 1510519894395,
+        "stop" : 1510519895473,
+        "duration" : 1078
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then the new contact list is equal to the old list with the added contact",
+      "time" : {
+        "start" : 1510519895473,
+        "stop" : 1510519895600,
+        "duration" : 127
+      },
+      "status" : "failed",
+      "statusDetails" : {
+        "message" : "AssertionError: assert (11 + 1) == 11\n +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\n +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\n +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\n +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts",
+        "trace" : "app = <fixture.application.Application object at 0x0430E270>\ndb = <fixture.db.DbFixture object at 0x04315190>\njson_contacts = None:firstnameWI'):lastname-;address;None\n\n    def test_add_contact(app, db, json_contacts):\n        contacts = json_contacts\n        with pytest.allure.step('Given a contact list'):\n            old_contacts = db.get_contacts_list()\n        with pytest.allure.step('When I add the contact to the list'):\n            app.contacts.create(contacts)\n        with pytest.allure.step('Then the new contact list is equal to the old list with the added contact'):\n>           assert len(old_contacts) + 1 == app.contacts.count()\nE           assert (11 + 1) == 11\nE            +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\nE            +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\nE            +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\nE            +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts\n\ntest\\test_add_contact.py:13: AssertionError",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "PaulPC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test.test_add_contact"
+  }, {
+    "name" : "testClass",
+    "value" : "test.test_add_contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_add_contact[None:firstnameWI'):lastname-;address;None]"
+  }, {
+    "name" : "package",
+    "value" : "test.test_add_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "AssertionError: assert (11 + 1) == 11\n +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\n +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\n +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\n +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts",
+    "trace" : "app = <fixture.application.Application object at 0x0430E270>\ndb = <fixture.db.DbFixture object at 0x04315190>\njson_contacts = None:firstnameWI'):lastname-;address;None\n\n    def test_add_contact(app, db, json_contacts):\n        contacts = json_contacts\n        with pytest.allure.step('Given a contact list'):\n            old_contacts = db.get_contacts_list()\n        with pytest.allure.step('When I add the contact to the list'):\n            app.contacts.create(contacts)\n        with pytest.allure.step('Then the new contact list is equal to the old list with the added contact'):\n>           assert len(old_contacts) + 1 == app.contacts.count()\nE           assert (11 + 1) == 11\nE            +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\nE            +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\nE            +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\nE            +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts\n\ntest\\test_add_contact.py:13: AssertionError",
+    "flaky" : false
+  },
+  "source" : "41921f4ac255c34f.json",
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

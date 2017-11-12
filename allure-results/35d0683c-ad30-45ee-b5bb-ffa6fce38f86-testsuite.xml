@@ -1,0 +1,218 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1510519886668" stop="1510519901242">
+  <name>test.test_add_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1510519886668" status="passed" stop="1510519894215">
+      <name>test_add_contact[None::;;None]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8172-MainThread"/>
+        <label name="host" value="PaulPC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1510519892959" status="passed" stop="1510519892962">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519892962" status="passed" stop="1510519894094">
+          <name>When I add the contact to the list</name>
+          <title>When I add the contact to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519894094" status="passed" stop="1510519894215">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1510519894216" status="failed" stop="1510519895614">
+      <name>test_add_contact[None:firstnameWI'):lastname-;address;None]</name>
+      <failure>
+        <message>AssertionError: assert (11 + 1) == 11
+ +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])
+ +  and   11 = &lt;bound method ContactHelper.count of &lt;fixture.contacts.ContactHelper object at 0x04315150&gt;&gt;()
+ +    where &lt;bound method ContactHelper.count of &lt;fixture.contacts.ContactHelper object at 0x04315150&gt;&gt; = &lt;fixture.contacts.ContactHelper object at 0x04315150&gt;.count
+ +      where &lt;fixture.contacts.ContactHelper object at 0x04315150&gt; = &lt;fixture.application.Application object at 0x0430E270&gt;.contacts</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x0430E270&gt;
+db = &lt;fixture.db.DbFixture object at 0x04315190&gt;
+json_contacts = None:firstnameWI'):lastname-;address;None
+
+    def test_add_contact(app, db, json_contacts):
+        contacts = json_contacts
+        with pytest.allure.step('Given a contact list'):
+            old_contacts = db.get_contacts_list()
+        with pytest.allure.step('When I add the contact to the list'):
+            app.contacts.create(contacts)
+        with pytest.allure.step('Then the new contact list is equal to the old list with the added contact'):
+&gt;           assert len(old_contacts) + 1 == app.contacts.count()
+E           assert (11 + 1) == 11
+E            +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])
+E            +  and   11 = &lt;bound method ContactHelper.count of &lt;fixture.contacts.ContactHelper object at 0x04315150&gt;&gt;()
+E            +    where &lt;bound method ContactHelper.count of &lt;fixture.contacts.ContactHelper object at 0x04315150&gt;&gt; = &lt;fixture.contacts.ContactHelper object at 0x04315150&gt;.count
+E            +      where &lt;fixture.contacts.ContactHelper object at 0x04315150&gt; = &lt;fixture.application.Application object at 0x0430E270&gt;.contacts
+
+test\test_add_contact.py:13: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8172-MainThread"/>
+        <label name="host" value="PaulPC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1510519894394" status="passed" stop="1510519894395">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519894395" status="passed" stop="1510519895473">
+          <name>When I add the contact to the list</name>
+          <title>When I add the contact to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519895473" status="failed" stop="1510519895600">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1510519895615" status="passed" stop="1510519896928">
+      <name>test_add_contact[None:firstnamew:lastnameF :;address5V|;None]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8172-MainThread"/>
+        <label name="host" value="PaulPC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1510519895793" status="passed" stop="1510519895794">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519895794" status="passed" stop="1510519896805">
+          <name>When I add the contact to the list</name>
+          <title>When I add the contact to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519896805" status="passed" stop="1510519896927">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1510519896928" status="passed" stop="1510519898408">
+      <name>test_add_contact[None:firstname:lastnamenCj ;addressxX4;None]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8172-MainThread"/>
+        <label name="host" value="PaulPC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1510519897120" status="passed" stop="1510519897121">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519897121" status="passed" stop="1510519898279">
+          <name>When I add the contact to the list</name>
+          <title>When I add the contact to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519898279" status="passed" stop="1510519898407">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1510519898408" status="passed" stop="1510519899874">
+      <name>test_add_contact[None:firstnameu:lastname ,0;addressZ;None]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8172-MainThread"/>
+        <label name="host" value="PaulPC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1510519898628" status="passed" stop="1510519898629">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519898629" status="passed" stop="1510519899737">
+          <name>When I add the contact to the list</name>
+          <title>When I add the contact to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519899737" status="passed" stop="1510519899873">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1510519899874" status="passed" stop="1510519901242">
+      <name>test_add_contact[None:firstnameExaf:lastname@&lt;hE;addressC\3.;None]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8172-MainThread"/>
+        <label name="host" value="PaulPC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1510519900079" status="passed" stop="1510519900081">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519900081" status="passed" stop="1510519901113">
+          <name>When I add the contact to the list</name>
+          <title>When I add the contact to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1510519901113" status="passed" stop="1510519901242">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

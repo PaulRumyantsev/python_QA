@@ -1,5 +1,25 @@
 {
-  "b066fff46e5d8d79e105d64621f8e2d9" : {
+  "c34d4d7f7947ede299c78a5a79623bc4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41921f4ac255c34f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert (11 + 1) == 11\n +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\n +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\n +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\n +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts",
+      "time" : {
+        "start" : 1510519894216,
+        "stop" : 1510519895614,
+        "duration" : 1398
+      }
+    } ]
+  },
+  "cfbae7cb362571eaea69169982d8272a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +29,88 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e5209a9a4238508a",
+      "uid" : "5bd17ba9f76b3fe",
       "status" : "passed",
       "time" : {
-        "start" : 1510519473697,
-        "stop" : 1510519480656,
-        "duration" : 6959
+        "start" : 1510519896928,
+        "stop" : 1510519898408,
+        "duration" : 1480
+      }
+    } ]
+  },
+  "2dea4bebd0481e6c50231693bfa9770b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1331c48e008f0274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1510519899874,
+        "stop" : 1510519901242,
+        "duration" : 1368
+      }
+    } ]
+  },
+  "95f6433fd23fe032bbab5bba1b0753d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a80c97e43d534adb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1510519895615,
+        "stop" : 1510519896928,
+        "duration" : 1313
+      }
+    } ]
+  },
+  "4c7ccdd7751dd2d7061236c9e8ada6f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc919d55697a305f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1510519886668,
+        "stop" : 1510519894215,
+        "duration" : 7547
+      }
+    } ]
+  },
+  "256bff70a0da33ddb79718d21671cebf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f5605b5f3fc61ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1510519898408,
+        "stop" : 1510519899874,
+        "duration" : 1466
       }
     } ]
   }

@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (11 + 1) == 11\n +  where 11 = len([451:firstname2:lastname2;address2;, 452:firstname1:lastname1;address1;, 453:firstname2:lastname2;address2;, 454::;;, 455:firstnamew:lastnameF :;address5V|;, 456:firstname:lastnamenCj ;addressxX4;, ...])\n +  and   11 = <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>>()\n +    where <bound method ContactHelper.count of <fixture.contacts.ContactHelper object at 0x04315150>> = <fixture.contacts.ContactHelper object at 0x04315150>.count\n +      where <fixture.contacts.ContactHelper object at 0x04315150> = <fixture.application.Application object at 0x0430E270>.contacts",
+      "children" : [ {
+        "name" : "test_add_contact[None:firstnameWI'):lastname-;address;None]",
+        "uid" : "41921f4ac255c34f",
+        "parentUid" : "6eee5176ed33d573f211a13d5336a96c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1510519894216,
+          "stop" : 1510519895614,
+          "duration" : 1398
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6eee5176ed33d573f211a13d5336a96c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

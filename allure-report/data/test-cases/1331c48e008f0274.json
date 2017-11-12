@@ -1,12 +1,12 @@
 {
-  "uid" : "e5209a9a4238508a",
-  "name" : "test_delete_some_group",
-  "fullName" : "test.test_del_group.test_delete_some_group",
-  "historyId" : "b066fff46e5d8d79e105d64621f8e2d9",
+  "uid" : "1331c48e008f0274",
+  "name" : "test_add_contact[None:firstnameExaf:lastname@<hE;addressC\\3.;None]",
+  "fullName" : "test.test_add_contact.test_add_contact[None:firstnameExaf:lastname@<hE;addressC\\3.;None]",
+  "historyId" : "2dea4bebd0481e6c50231693bfa9770b",
   "time" : {
-    "start" : 1510519473697,
-    "stop" : 1510519480656,
-    "duration" : 6959
+    "start" : 1510519899874,
+    "stop" : 1510519901242,
+    "duration" : 1368
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,57 +18,57 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given a random group from the list",
+      "name" : "Given a contact list",
       "time" : {
-        "start" : 1510519480056,
-        "stop" : 1510519480057,
-        "duration" : 1
+        "start" : 1510519900079,
+        "stop" : 1510519900081,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "When I delete the group 269:namePo;header<N=;footer from the list",
+      "name" : "When I add the contact to the list",
       "time" : {
-        "start" : 1510519480057,
-        "stop" : 1510519480655,
-        "duration" : 598
+        "start" : 1510519900081,
+        "stop" : 1510519901113,
+        "duration" : 1032
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Then the new list is equal to the old list without the deleted group",
+      "name" : "Then the new contact list is equal to the old list with the added contact",
       "time" : {
-        "start" : 1510519480655,
-        "stop" : 1510519480656,
-        "duration" : 1
+        "start" : 1510519901113,
+        "stop" : 1510519901242,
+        "duration" : 129
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -85,19 +85,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "18848-MainThread"
+    "value" : "8172-MainThread"
   }, {
     "name" : "suite",
-    "value" : "test.test_del_group"
+    "value" : "test.test_add_contact"
   }, {
     "name" : "testClass",
-    "value" : "test.test_del_group"
+    "value" : "test.test_add_contact"
   }, {
     "name" : "testMethod",
-    "value" : "test_delete_some_group"
+    "value" : "test_add_contact[None:firstnameExaf:lastname@<hE;addressC\\3.;None]"
   }, {
     "name" : "package",
-    "value" : "test.test_del_group"
+    "value" : "test.test_add_contact"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -114,7 +114,7 @@
   "statusDetailsSafe" : {
     "flaky" : false
   },
-  "source" : "e5209a9a4238508a.json",
+  "source" : "1331c48e008f0274.json",
   "statusMessage" : {
     "present" : false
   },
