@@ -190,20 +190,21 @@ class ContactHelper:
         return Contacts(homephone=homephone, workphone=workphone, mobilephone=mobilephone, fax=fax,
                         secondaryphone=secondaryphone)
 
-    def add_contacts_to_group(self, contact_id, group_id):
+    def add_contacts_to_group(self, contact, group):
         wd = self.app.wd
         self.app.open_home_page()
-        wd.find_element_by_css_selector("input[value='%s']" % contact_id).click()
+        wd.find_element_by_css_selector("input[value='%s']" % contact.id).click()
         select = Select(wd.find_element_by_css_selector("select[name='to_group']"))
-        select.select_by_value('%s' % group_id)
+        select.select_by_value('%s' % group.id)
         wd.find_element_by_css_selector("input[value='Add to']").click()
-        wd.find_element_by_css_selector("a[href='./?group=%s']" % group_id).click()
+        wd.find_element_by_css_selector("a[href='./?group=%s']" % group.id).click()
 
-    def delete_contacts_from_group(self, group_id):
+    def delete_contacts_from_group(self, contact, group):
         wd = self.app.wd
-        self.app.open_home_page()
+        self.open_home_page()
         select = Select(wd.find_element_by_css_selector("select[name='group']"))
-        select.select_by_value('%s' % group_id)
-        wd.find_element_by_css_selector("input[name='selected[]']").click()
+        select.select_by_value('%s' % group.id)
+        wd.find_element_by_css_selector("input[id='%s']" % contact.id).click()
         wd.find_element_by_css_selector("input[name='remove']").click()
-        wd.find_element_by_css_selector("a[href='./?group=%s']" % group_id).click()
+        wd.find_element_by_css_selector("a[href='./?group=%s']" % group.id).click()
+
